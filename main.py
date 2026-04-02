@@ -25,7 +25,9 @@ print(exp_x(x, n))
 
 
 bot = 0.0
+
 def solve(n):
+   """the function gets a number and recursives that amount. if the result is equal or less than 0, the recursion is over. if the number is odd, the result is subtracted."""
    global bot
    if n <= 0.0 :
        return
